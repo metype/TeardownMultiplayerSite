@@ -17,7 +17,7 @@
 
   img.tdmp-img {
     width: 100vw;
-    height: 20rem;
+    height: min( 20rem, 20vh);
     object-fit: cover;
   }
 
@@ -27,7 +27,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: #181818 3px 3px;
+    text-shadow: #181818dd 3px 3px;
     user-select: none;
   }
 </style>
