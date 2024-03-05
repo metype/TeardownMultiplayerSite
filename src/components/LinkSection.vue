@@ -32,7 +32,7 @@
 
   a:link, a:visited {
     background-color: var( --color-background-soft );
-    color: white;
+    color: var(--color-text);
     padding: 8px 14px;
     text-align: center;
     text-decoration: none;
